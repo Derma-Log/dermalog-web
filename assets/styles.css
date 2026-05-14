@@ -205,3 +205,113 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+.site-footer {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(18rem, 1.4fr);
+  gap: var(--space-5);
+  align-items: start;
+  margin-top: var(--space-4);
+  padding: var(--space-5);
+  box-shadow: none;
+}
+
+.footer-copy {
+  max-width: 34rem;
+  margin-bottom: 0;
+  color: var(--color-muted);
+}
+
+.footer-links,
+.legal-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.footer-links a,
+.legal-nav a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 2.25rem;
+  padding: 0 var(--space-3);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-pill);
+  background: var(--color-surface-soft);
+  color: var(--color-accent);
+  font-size: 0.92rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.legal-shell {
+  width: min(100% - var(--space-5), 56rem);
+}
+
+.legal-document {
+  padding: clamp(var(--space-4), 5vw, var(--space-6));
+}
+
+.document-meta {
+  margin-bottom: var(--space-4);
+  color: var(--color-muted);
+  font-size: 0.95rem;
+}
+
+.legal-nav {
+  margin: 0 0 var(--space-5);
+  padding-bottom: var(--space-5);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.legal-nav.compact {
+  margin-top: var(--space-5);
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.legal-section {
+  max-width: var(--line-measure);
+  padding-top: var(--space-3);
+}
+
+.legal-section + .legal-section {
+  margin-top: var(--space-5);
+  padding-top: var(--space-5);
+  border-top: 1px solid var(--color-border);
+}
+
+.legal-section h2 {
+  margin-bottom: var(--space-3);
+  font-size: clamp(1.2rem, 2vw, 1.45rem);
+}
+
+.legal-section p,
+.legal-section li {
+  color: var(--color-muted);
+}
+
+.legal-section ul {
+  margin: 0 0 var(--space-4);
+  padding-left: var(--space-4);
+}
+
+.legal-section li + li {
+  margin-top: var(--space-2);
+}
+
+@media (max-width: 760px) {
+  .site-footer {
+    grid-template-columns: 1fr;
+    padding: var(--space-4);
+  }
+
+  .legal-shell {
+    width: min(100% - var(--space-4), 56rem);
+  }
+
+  .legal-document {
+    padding: var(--space-4);
+  }
+}
