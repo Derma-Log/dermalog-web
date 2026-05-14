@@ -31,3 +31,7 @@ Legal page content is public-facing publication material derived from private so
 The site is hosted via GitHub Pages. The `CNAME` file sets the custom domain to `derma-log.eu`.
 
 The site intentionally uses plain HTML and CSS only. It does not use JavaScript, analytics, cookies, package tooling, or external dependencies.
+
+## Repository Documentation
+
+Repository role and publication-boundary rules are documented in `Documentation/repository-boundary.md`. This documentation is for maintainers and is not part of the public website navigation.
