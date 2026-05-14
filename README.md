@@ -25,6 +25,7 @@ Legal page content is public-facing publication material derived from private so
 - `/account-deletion/` - Account Deletion & Retention Notice
 - `/export-backup/` - Data Ownership, Export & Backup Notice
 - `/assets/styles.css` - shared static styling
+- `/assets/brand/dermalog-logo.svg` - public Derma.Log logo asset
 
 ## Hosting
 
