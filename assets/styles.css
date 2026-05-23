@@ -541,7 +541,7 @@ body.home {
   justify-content: flex-end;
 }
 
-.app-store-badge,
+.app-store-link,
 .ending-links a {
   display: inline-flex;
   align-items: center;
@@ -551,13 +551,14 @@ body.home {
   text-decoration: none;
 }
 
-.app-store-badge {
-  min-width: 9.5rem;
-  padding: 0 var(--space-4);
-  border: 1px solid var(--color-text);
-  background: var(--color-text);
-  color: var(--color-surface);
-  font-weight: 800;
+.app-store-link {
+  line-height: 0;
+}
+
+.app-store-link img {
+  display: block;
+  width: 9rem;
+  height: auto;
 }
 
 .ending-links a {
