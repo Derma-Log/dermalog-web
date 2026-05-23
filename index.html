@@ -3,62 +3,141 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Derma.Log is a structured skin observation tool for private records over time.">
+    <meta name="description" content="Derma.Log helps organize image-based skin records, timelines, and private exports.">
     <title>Derma.Log | Structured skin observation over time</title>
     <link rel="stylesheet" href="/assets/styles.css">
   </head>
-  <body>
-    <main class="page-shell">
-      <section class="hero card" aria-labelledby="home-title">
-        <img class="brand-logo" src="/assets/brand/dermalog-logo.svg" alt="Derma.Log">
-        <h1 id="home-title">Structured skin observation over time.</h1>
-        <p class="lead">
-          Derma.Log helps you keep an image-based skin history with structured logs,
-          private records, and long-term observation notes in one organized place.
-        </p>
-        <div class="actions" aria-label="Primary site links">
-          <a class="button" href="/privacy/">Privacy Policy</a>
-          <a class="button button-secondary" href="/support/">Support</a>
+  <body class="home">
+    <main class="home-shell">
+      <section class="home-hero" aria-labelledby="home-title">
+        <div class="hero-copy">
+          <img class="home-logo" src="/assets/brand/dermalog-logo.svg" alt="Derma.Log">
+          <p class="home-kicker">Skin records, structured</p>
+          <h1 id="home-title">Structured skin observation over time.</h1>
+          <p class="home-lead">
+            Derma.Log helps organize image-based skin records, timelines, and private exports.
+          </p>
+        </div>
+        <figure class="phone-figure hero-phone" aria-label="Derma.Log app dashboard">
+          <div class="phone-frame">
+            <img
+              src="/assets/images/app-store-dashboard.jpg"
+              alt="Derma.Log dashboard showing image-based skin records and monitoring overview"
+              width="590"
+              height="1280"
+              fetchpriority="high">
+          </div>
+        </figure>
+      </section>
+
+      <section class="story-section story-section-offset" aria-labelledby="identity-title">
+        <div class="story-copy reveal-copy">
+          <p class="home-kicker">Product identity</p>
+          <h2 id="identity-title">Keep skin history organized</h2>
+          <p>
+            A focused record of observed spots, image entries, and supporting details in one interface.
+          </p>
+        </div>
+        <figure class="phone-figure reveal-visual" aria-label="Derma.Log welcome screen">
+          <div class="phone-frame phone-frame-crop phone-frame-identity">
+            <img
+              src="/assets/images/app-store-identity.jpg"
+              alt="Derma.Log welcome screen"
+              width="590"
+              height="1280"
+              loading="lazy">
+          </div>
+        </figure>
+      </section>
+
+      <section class="story-section" aria-labelledby="logging-title">
+        <div class="story-copy reveal-copy">
+          <p class="home-kicker">Image-based logging</p>
+          <h2 id="logging-title">Image-based records</h2>
+          <p>
+            Logged images stay connected to the spot history they belong to, supporting review across entries.
+          </p>
+        </div>
+        <div class="visual-stack reveal-visual" aria-label="Derma.Log image logging views">
+          <figure class="phone-figure">
+            <div class="phone-frame">
+              <img
+                src="/assets/images/app-store-detail.jpg"
+                alt="Derma.Log spot detail showing a logged skin image and entry count"
+                width="590"
+                height="1280"
+                loading="lazy">
+            </div>
+          </figure>
+          <figure class="phone-figure phone-figure-secondary">
+            <div class="phone-frame phone-frame-crop phone-frame-dashboard">
+              <img
+                src="/assets/images/app-store-dashboard.jpg"
+                alt="Derma.Log overview showing recent skin records"
+                width="590"
+                height="1280"
+                loading="lazy">
+            </div>
+          </figure>
         </div>
       </section>
 
-      <section class="grid" aria-label="Product principles">
-        <article class="card panel">
-          <h2>Image history</h2>
-          <p>Keep a consistent visual timeline for skin observations you want to follow over time.</p>
-        </article>
-        <article class="card panel">
-          <h2>Structured logs</h2>
-          <p>Record observations in an organized format designed for review and continuity.</p>
-        </article>
-        <article class="card panel">
-          <h2>Private records</h2>
-          <p>Maintain personal skin records under your control without public sharing or trackers.</p>
-        </article>
+      <section class="story-section" aria-labelledby="timeline-title">
+        <div class="story-copy reveal-copy">
+          <p class="home-kicker">Timeline/history</p>
+          <h2 id="timeline-title">Review changes over time</h2>
+          <p>
+            Timeline views keep entries in sequence so previous observations remain easy to find.
+          </p>
+        </div>
+        <figure class="phone-figure reveal-visual" aria-label="Derma.Log timeline">
+          <div class="phone-frame">
+            <img
+              src="/assets/images/app-store-timeline.jpg"
+              alt="Derma.Log timeline listing skin record entries over time"
+              width="590"
+              height="1280"
+              loading="lazy">
+          </div>
+        </figure>
       </section>
 
-      <section class="notice card" aria-label="Medical notice">
-        <p>
-          Derma.Log is an observation and record-keeping tool. It is not a diagnostic service
-          and does not replace professional medical advice.
-        </p>
+      <section class="story-section story-section-last" aria-labelledby="privacy-title">
+        <div class="story-copy reveal-copy">
+          <p class="home-kicker">Export/privacy</p>
+          <h2 id="privacy-title">Export when needed</h2>
+          <p>
+            Private by design, with public information for privacy, terms, support, and data export.
+          </p>
+        </div>
+        <figure class="phone-figure reveal-visual" aria-label="Derma.Log privacy and export settings">
+          <div class="phone-frame phone-frame-crop phone-frame-privacy">
+            <img
+              src="/assets/images/app-store-privacy.jpg"
+              alt="Derma.Log privacy screen showing data export and privacy policy links"
+              width="590"
+              height="1280"
+              loading="lazy">
+          </div>
+        </figure>
       </section>
 
-      <footer class="site-footer card" aria-label="Legal and support navigation">
+      <section class="home-ending" aria-labelledby="ending-title">
         <div>
-          <p class="eyebrow">Legal &amp; support</p>
-          <p class="footer-copy">Public information for privacy, terms, support, and medical boundaries.</p>
+          <p class="home-kicker">Derma.Log</p>
+          <h2 id="ending-title">Private by design</h2>
         </div>
-        <nav class="footer-links" aria-label="Footer links">
-          <a href="/privacy/">Privacy Policy</a>
-          <a href="/terms/">Terms</a>
-          <a href="/medical-disclaimer/">Medical Disclaimer</a>
-          <a href="/support/">Support</a>
-          <a href="/subscription-terms/">Subscription Terms</a>
-          <a href="/account-deletion/">Account Deletion</a>
-          <a href="/export-backup/">Export &amp; Backup</a>
-        </nav>
-      </footer>
+        <div class="ending-actions" aria-label="App and site links">
+          <span class="app-store-badge" aria-label="App Store badge placeholder">
+            <span>App Store</span>
+          </span>
+          <nav class="ending-links" aria-label="Legal and support links">
+            <a href="/privacy/">Privacy</a>
+            <a href="/support/">Support</a>
+            <a href="/terms/">Terms</a>
+          </nav>
+        </div>
+      </section>
     </main>
   </body>
 </html>
