@@ -1,0 +1,3 @@
+This update includes export improvements, interface refinements, navigation polish, and a variety of stability enhancements across Derma.Log.
+
+Thank you for using Derma.Log.

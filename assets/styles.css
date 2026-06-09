@@ -408,7 +408,7 @@ body.home {
 
 .phone-frame {
   position: relative;
-  aspect-ratio: 590 / 1280;
+  aspect-ratio: 1242 / 2688;
   width: min(100%, 22rem);
   margin: 0 auto;
   overflow: hidden;
@@ -443,22 +443,6 @@ body.home {
 
 .hero-phone .phone-frame {
   width: min(100%, 23.5rem);
-}
-
-.phone-frame-crop img {
-  height: 112%;
-}
-
-.phone-frame-identity img {
-  object-position: center 44%;
-}
-
-.phone-frame-dashboard img {
-  object-position: center top;
-}
-
-.phone-frame-privacy img {
-  object-position: center 78%;
 }
 
 .story-section {

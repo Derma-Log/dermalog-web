@@ -1,0 +1,51 @@
+Combine today’s technology and high-resolution cameras with old-school bookkeeping, and you get Derma.Log.
+
+A Photo logbook for skin changes: moles, rashes, eczema patches, psoriasis flare-ups, bug bites, red spots, healing marks, or anything you want to keep an eye on.
+
+Take a photo. Add a note. Come back later and add another, build a timeline, instead of having to scroll through 1000s of images in your Photo library.
+
+Use it to:
+- keep photos grouped by the same spot or skin concern
+- see what happened, when, and where
+- record simple observations and notes
+- export a clean record when you want to prepare for an appointment
+- keep sensitive skin records handled with care
+
+Why Derma.Log is unique?
+Because its designed for real usage, backed by real needs, used by the author.
+
+FEATURES
+
+• Create image-based skin histories
+• Track progression with chronological logs
+• Organize observations by body area
+• Review spot development through simple timelines
+• Create reminders for follow-ups, appointments, treatments and more
+• Protect sensitive spots with a privacy shield
+• Export reports in PDF, CSV, and JSON formats
+• Create personal backup files
+• Secure account-based synchronization
+
+PRIVACY FIRST
+
+Your history belongs to you!
+
+Derma.Log is designed around private, user-controlled records, and preserve careful medical-language boundaries. The app helps organize and review skin observations, but does not provide medical diagnoses or emergency evaluation.
+
+- No advertising.
+- No tracking across apps.
+- No behavioral profiling.
+
+Only the account information required to operate the service is used.
+That means, Your history remains private and under your control.
+
+IMPORTANT
+
+Derma.Log is an observation and documentation tool only and is not a substitute for professional medical advice, diagnosis, or treatment.
+
+If you are concerned about a skin change or medical condition, contact a qualified healthcare professional.
+
+
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
+Full Access is optional and supports expanded storage capacity.
