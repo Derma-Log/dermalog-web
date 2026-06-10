@@ -1,0 +1,6 @@
+interface:
+  display_name: "Derma.Log Social"
+  short_description: "Create clinical Derma.Log social copy"
+  default_prompt: "Use $dermalog-social-presence to draft a Derma.Log social media post."
+policy:
+  allow_implicit_invocation: true

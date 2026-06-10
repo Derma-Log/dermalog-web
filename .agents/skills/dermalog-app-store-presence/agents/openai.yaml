@@ -1,0 +1,6 @@
+interface:
+  display_name: "Derma.Log App Store"
+  short_description: "Draft App Store-safe Derma.Log copy"
+  default_prompt: "Use $dermalog-app-store-presence to draft App Store listing copy for Derma.Log."
+policy:
+  allow_implicit_invocation: true

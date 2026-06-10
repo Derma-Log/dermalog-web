@@ -1,0 +1,6 @@
+interface:
+  display_name: "Derma.Log Website"
+  short_description: "Maintain the static Derma.Log website"
+  default_prompt: "Use $dermalog-public-website to update a public Derma.Log website page while preserving repository boundaries."
+policy:
+  allow_implicit_invocation: true
