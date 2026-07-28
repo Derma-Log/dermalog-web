@@ -411,8 +411,8 @@ body.home {
   grid-template-columns: minmax(0, 0.9fr) minmax(20rem, 0.7fr);
   gap: clamp(var(--space-5), 7vw, var(--space-7));
   align-items: center;
-  min-height: calc(82svh - 5rem);
-  padding: var(--space-4) 0 var(--space-6);
+  min-height: calc(100svh - 5rem);
+  padding: var(--space-5) 0;
 }
 
 .hero-copy,
@@ -501,9 +501,8 @@ body.home {
   grid-template-columns: minmax(0, 0.72fr) minmax(19rem, 0.68fr);
   gap: clamp(var(--space-5), 7vw, var(--space-7));
   align-items: center;
-  min-height: 86svh;
-  padding: var(--space-6) 0;
-  border-top: 1px solid var(--color-border);
+  min-height: 100svh;
+  padding: var(--space-7) 0;
 }
 
 .story-section:nth-of-type(2n + 1) {
@@ -522,7 +521,7 @@ body.home {
 }
 
 .story-section-offset {
-  margin-top: var(--space-4);
+  margin-top: var(--space-6);
 }
 
 .story-section-last {
