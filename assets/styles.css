@@ -955,6 +955,32 @@ body.knowledge {
   width: fit-content;
 }
 
+.article-cta-with-qr {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(9rem, 11rem);
+  gap: var(--space-5);
+  align-items: center;
+}
+
+.article-qr {
+  margin: 0;
+}
+
+.article-qr a {
+  display: block;
+  border-radius: var(--radius-card);
+  line-height: 0;
+}
+
+.article-qr img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-card);
+  background: var(--color-surface);
+}
+
 .article-relationship {
   padding: var(--space-3) var(--space-4);
   border-left: 2px solid var(--color-accent);
@@ -1085,5 +1111,13 @@ body.knowledge {
   .related-articles,
   .article-preview {
     padding: var(--space-4);
+  }
+
+  .article-cta-with-qr {
+    display: block;
+  }
+
+  .article-qr {
+    display: none;
   }
 }
