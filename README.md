@@ -17,6 +17,7 @@ Legal page content is public-facing publication material derived from private so
 ## Structure
 
 - `/` - homepage
+- `/knowledge/` - Knowledge Library index and locale-scoped educational articles
 - `/privacy/` - Privacy Policy
 - `/terms/` - Terms of Service
 - `/medical-disclaimer/` - Medical Disclaimer
