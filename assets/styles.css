@@ -390,6 +390,12 @@ body.home {
   line-height: 0;
 }
 
+.home-nav-actions {
+  display: flex;
+  gap: var(--space-3);
+  align-items: center;
+}
+
 .home-nav-brand img {
   display: block;
   width: min(10rem, 42vw);
@@ -699,6 +705,10 @@ body.home {
 
   .home-nav-store img {
     width: 7.5rem;
+  }
+
+  .home-nav-actions {
+    gap: var(--space-1);
   }
 
   .home h1 {
