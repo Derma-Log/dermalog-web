@@ -43,3 +43,23 @@ The international English site remains the default at the root URL. Danish pages
 ## Repository Documentation
 
 Repository role and publication-boundary rules are documented in `Documentation/repository-boundary.md`. This documentation is for maintainers and is not part of the public website navigation.
+
+## Need-specific page pattern
+
+The bilingual eczema/rash documentation page uses `/knowledge/en/eczema-rash-history/`
+and `/da/knowledge/eczema-rash-history/`. It reuses the existing article and phone-image
+classes: documentation need, Spot / repeated image-backed Logs, one authentic interface
+example, non-diagnostic boundary, matching App Store CTA, related reading and trust links.
+Language links retain the same documentation context. Both homepage headers link to
+the Knowledge Library; each locale’s library and existing image-history article link
+to the matching documentation page.
+
+`Documentation/cpp-destinations.json` records Apple-returned CPP identities, checked
+public URLs and language behavior. Null routes mean no page has been assigned; this
+registry does not create or authorize additional pages. The homepage retains its
+existing default App Store destination. Unavailable need-specific destinations have
+no automatic fallback.
+
+The page pair is included in `/sitemap.xml` with the existing canonical public pages.
+Keep this static sitemap aligned with published routes. There is no repository build
+command or sitemap generator; validate static links and HTML directly.

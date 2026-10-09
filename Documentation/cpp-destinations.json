@@ -1,0 +1,281 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-09T13:59:39Z",
+  "homepage_destinations": {
+    "en": "https://apps.apple.com/us/app/derma-log/id6767522002",
+    "da": "https://apps.apple.com/dk/app/derma-log/id6767522002",
+    "policy": "Existing default product-page CTAs retained; no CPP01 routing change"
+  },
+  "destinations": [
+    {
+      "cpp": "01",
+      "context": "Skin journal; image history over time",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Skin Journal · Image History · CPP 01",
+      "page_id": "56ab70dd-11b6-476e-b2dc-8c5e9bee25b3",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=56ab70dd-11b6-476e-b2dc-8c5e9bee25b3",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=56ab70dd-11b6-476e-b2dc-8c5e9bee25b3",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=56ab70dd-11b6-476e-b2dc-8c5e9bee25b3&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "02",
+      "context": "Eczema or recurring rash; return to the same Spot",
+      "website_route": {
+        "en": "/knowledge/en/eczema-rash-history/",
+        "da": "/da/knowledge/eczema-rash-history/"
+      },
+      "website_route_state": "published documentation route",
+      "reference": "Eczema · Rash History · CPP 02",
+      "page_id": "323e7ddd-bde5-442d-a956-d48ae58907f1",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=323e7ddd-bde5-442d-a956-d48ae58907f1",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=323e7ddd-bde5-442d-a956-d48ae58907f1",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=323e7ddd-bde5-442d-a956-d48ae58907f1&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; used by the documentation route",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "03",
+      "context": "Psoriasis; dated photographs and notes",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Psoriasis · Image History · CPP 03",
+      "page_id": "03b0ee6d-ff6d-4283-b2e2-9992ae62ec5a",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=03b0ee6d-ff6d-4283-b2e2-9992ae62ec5a",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=03b0ee6d-ff6d-4283-b2e2-9992ae62ec5a",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=03b0ee6d-ff6d-4283-b2e2-9992ae62ec5a&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "04",
+      "context": "Rosacea; photographs, dates and notes together",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Rosacea · Image History · CPP 04",
+      "page_id": "3d9756d1-4f8d-470b-9245-5cb37da0ca72",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=3d9756d1-4f8d-470b-9245-5cb37da0ca72",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=3d9756d1-4f8d-470b-9245-5cb37da0ca72",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=3d9756d1-4f8d-470b-9245-5cb37da0ca72&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "05",
+      "context": "Vitiligo; photographs of the same area",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Vitiligo · Image History · CPP 05",
+      "page_id": "88da0a13-6efb-4c60-904a-02a07b83f776",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=88da0a13-6efb-4c60-904a-02a07b83f776",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=88da0a13-6efb-4c60-904a-02a07b83f776",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=88da0a13-6efb-4c60-904a-02a07b83f776&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "06",
+      "context": "Acne; records organized by chosen area and date",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Acne · Image History · CPP 06",
+      "page_id": "0532cb61-a9f2-40c5-aca3-8d27ab45097e",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=0532cb61-a9f2-40c5-aca3-8d27ab45097e",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=0532cb61-a9f2-40c5-aca3-8d27ab45097e",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=0532cb61-a9f2-40c5-aca3-8d27ab45097e&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "07",
+      "context": "HS; user-chosen areas and private dated records",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Hidradenitis Suppurativa · History · CPP 07",
+      "page_id": "48a340b8-13d6-4a65-b81b-f1bfa963bc43",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=48a340b8-13d6-4a65-b81b-f1bfa963bc43",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=48a340b8-13d6-4a65-b81b-f1bfa963bc43",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=48a340b8-13d6-4a65-b81b-f1bfa963bc43&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "08",
+      "context": "Scleroderma; visible skin documentation only",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Scleroderma · Visible Skin History · CPP 08",
+      "page_id": "0e8b52c4-c79a-4a58-a427-0409c20f7715",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=0e8b52c4-c79a-4a58-a427-0409c20f7715",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=0e8b52c4-c79a-4a58-a427-0409c20f7715",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=0e8b52c4-c79a-4a58-a427-0409c20f7715&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    },
+    {
+      "cpp": "09",
+      "context": "Mole or skin change; photo history without assessment or detection",
+      "website_route": {
+        "en": null,
+        "da": null
+      },
+      "website_route_state": "no need-specific route assigned",
+      "reference": "Mole · Skin Change History · CPP 09",
+      "page_id": "05e6264c-910d-4889-8f32-ad7788cb8cba",
+      "public_url_from_apple": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=05e6264c-910d-4889-8f32-ad7788cb8cba",
+      "localized_public_urls": {
+        "en": "https://apps.apple.com/us/app/derma-log/id6767522002?ppid=05e6264c-910d-4889-8f32-ad7788cb8cba",
+        "da": "https://apps.apple.com/dk/app/derma-log/id6767522002?ppid=05e6264c-910d-4889-8f32-ad7788cb8cba&l=da"
+      },
+      "review_state": "APPROVED",
+      "checked_at_utc": "2026-10-09T13:59:39Z",
+      "public_identity_check": {
+        "en_promotional_text_matches": true,
+        "da_promotional_text_matches": true
+      },
+      "rendering_behavior": {
+        "en": "US web response renders matching English CPP text",
+        "da": "DK URL without language selection renders English; explicit l=da renders matching Danish CPP text",
+        "device_limit": "Web response verified; native App Store language/storefront behavior is not guaranteed by a website language selection"
+      },
+      "destination_gate": "verified approved EN/DA web destination; no need-specific website route or placement authorized",
+      "campaign_link_disposition": "No campaign parameters or campaign placement enabled",
+      "fallback_policy": "No automatic fallback; withhold an unavailable need-specific CTA"
+    }
+  ]
+}
